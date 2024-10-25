@@ -1,4 +1,6 @@
-opencv4.10.0 templete c++
+![GitHub repo size](https://img.shields.io/github/repo-size/crack-dawn/opencv-simple)
+
+# opencv4.10.0 templete c++
 + 直接使用在线打包好的opencv4.10.0动态库
 + 使用vscode + cmake tools的方式简单开发
 + 项目已打包好 opencv4.10.0动态库包, 未链接opencv-contrib库
