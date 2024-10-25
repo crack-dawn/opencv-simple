@@ -8,6 +8,7 @@ opencv4.10.0 templete c++
 opencv 4.10.0 windows mingw64 简单模板
 不含opencv contrib库包
 -----------------
+```
 编译配置参数如下:
 cmake
 -DWITH_OPENMP=ON
@@ -33,3 +34,4 @@ cmake
 -DCMAKE_CXX_COMPILER=g++ ..\source
 
 cmake --build . --config Release
+```
