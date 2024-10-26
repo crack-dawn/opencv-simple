@@ -1,14 +1,17 @@
-# opencv4.10.0 templete c++
+mingw-opencv4.10.0 templete c++ with CMakeLists
 + 直接使用在线打包好的opencv4.10.0动态库
 + 使用vscode + cmake tools的方式简单开发
-+ 项目已打包好 opencv4.10.0动态库包, 未链接opencv-contrib库
-
++ [项目已打包好 opencv4.10.0动态库包, 已链接opencv-contrib库](https://github.com/crack-dawn/Windows_MinGW_64_OpenCV/releases)
++ [opencv4.10.0动态库包在线编译,参考](https://github.com/FastTrackOrg/Windows_MinGW_64_OpenCV)
 ----
 
 opencv 4.10.0 windows mingw64 简单模板
-不含opencv contrib库包
+链接了opencv-contrib库包
+
 -----------------
+
 ```
+
 编译配置参数如下:
 cmake
 -DWITH_OPENMP=ON
@@ -31,9 +34,11 @@ cmake
 -DOPENCV_ENABLE_NONFREE=ON
 -DBUILD_opencv_world=ON
 -G "MinGW Makefiles"
+-DOPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules
 -DCMAKE_CXX_COMPILER=g++ ..\source
 
 cmake --build . --config Release
+cmake --install . 
 ```
 
 
