@@ -9,8 +9,8 @@ opencv 4.10.0 windows mingw64 简单模板
 链接了opencv-contrib库包
 
 -----------------
-
-```
++ 编译所用g++:`Qt/Tools/mingw1310_64/bin/g++`, 详见[仓库:opencv+opencv-contrib动态库编译的.github/workflows ](https://github.com/crack-dawn/Windows_MinGW_64_OpenCV/blob/master/.github/workflows/continuous_autoTask.yml
+```)
 
 编译配置参数如下:
 cmake
