@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 	// 读入图片
-	Mat img = imread("img.png");
+	Mat img = imread("../src/img.png");
 	
 	// 判断是否正确读入图片
 	if (img.empty()){
